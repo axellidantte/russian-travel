@@ -1,0 +1,30 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    align-self: start;
+    width: 43.125rem;
+    min-height: 26.8rem;
+    margin: 0 auto 5.75rem 9.25rem;
+}
+
+@media screen and (max-width: 79.9rem) {
+    .intro {
+        margin: 0 auto 5.75rem 3rem;
+    }
+}
+
+@media screen and (max-width: 63.9rem) {
+    .intro {
+        margin: 0 1.5rem 5.5rem;
+        width: 45rem;
+    }
+}
+
+@media screen and (max-width: 47.9rem) {
+    .intro {
+        margin: 0 auto 4rem;
+        width: 18rem;
+    }
+}

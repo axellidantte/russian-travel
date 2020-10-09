@@ -10,14 +10,12 @@
 @media screen and (max-width: 79.9rem) {
     .lead {
         max-width: 58rem;
-        max-height: 60rem;
     }
 }
 
 @media screen and (max-width: 63.9rem) {
     .lead {
         font-size: 1rem;
-        max-height: 53.8rem;
         margin-bottom: 5.5rem;
     }
 }

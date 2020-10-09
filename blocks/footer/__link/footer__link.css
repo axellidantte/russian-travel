@@ -9,9 +9,10 @@
 }
 
 .footer__link:hover {
-    opacity: 0.5;
+    opacity: 0.8;
     transition: 0.5s;
 }
+
 
 @media screen and (max-width: 47.9rem) {
     .footer__link {
@@ -22,7 +23,5 @@
         line-height: 1;
     }
 
-    .footer__link:last-of-type {
-        margin-bottom: 3rem;
-    }
 }
+

@@ -10,11 +10,6 @@
     z-index: 2;
 }
 
-.cover__subtitle:hover + .cover__overlay {
-    opacity: 0.3;
-    transition: 0.6s;
-}
-
 @media screen and (max-width: 47.9rem) {
     .cover__subtitle {
         font-size: 0.875rem;

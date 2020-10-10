@@ -12,9 +12,15 @@
     transition: 0.4s;
 }
 
+<<<<<<< HEAD
 /* .header__lang-link:nth-of-type(1) {
     margin: 0 1.125rem 0 0;
 } */
+=======
+.header__lang-link:nth-of-type(1) {
+    margin: 0 1.125rem 0 0;
+}
+>>>>>>> 88c28e4efb757df4324352e7cc2b987a9e60e0e6
 
 @media screen and (max-width: 47.9rem) {
     .header__lang-link {

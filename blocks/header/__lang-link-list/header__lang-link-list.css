@@ -1,8 +1,11 @@
 .header__lang-link-list {
     display: inline;
+<<<<<<< HEAD
     margin: 0 1.125rem 0 0;
 }
 
 .header__lang-link-list:last-of-type {
     margin-right: 0;
+=======
+>>>>>>> 88c28e4efb757df4324352e7cc2b987a9e60e0e6
 }

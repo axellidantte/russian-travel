@@ -2,7 +2,11 @@
     font-style: normal;
     font-weight: normal;
     font-size: 1.125rem;
+<<<<<<< HEAD
     line-height: 1.6;
+=======
+    line-height: 1.6rem;
+>>>>>>> 88c28e4efb757df4324352e7cc2b987a9e60e0e6
 }
 
 @media screen and (max-width: 79.9rem) {

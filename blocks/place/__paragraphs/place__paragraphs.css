@@ -1,0 +1,25 @@
+.place__paragraphs {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 79.9rem) {
+    .place__paragraphs {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 63.9rem) {
+    .place__paragraphs {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 47.9rem) {
+    .place__paragraphs {
+        width: calc(100% - 1rem * 2);
+        margin: 0 auto;
+    }
+}

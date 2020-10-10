@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 74rem;
+    margin:1.75rem auto 3.5rem;
+}
+
+@media screen and (max-width: 79.9rem) {
+    .header {
+        max-width: 58rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 63.9rem) {
+    .header {
+        max-width: 45rem;
+        
+    }
+}
+
+@media screen and (max-width: 47.9rem) {
+    .header {
+        font-size: 1.125rem;
+        width: calc(100% - 1rem * 2);
+    }
+}

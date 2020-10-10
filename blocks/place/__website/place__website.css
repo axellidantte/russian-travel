@@ -1,0 +1,14 @@
+.place__website {
+    max-width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.place__website:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}

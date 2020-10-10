@@ -1,0 +1,10 @@
+.place__url {
+    max-width: 100%;
+    align-self: end;
+}
+
+@media screen and (max-width: 47.9rem) {
+    .place__url {
+        display: none;
+    }
+}

@@ -1,0 +1,27 @@
+.footer__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 1.125rem 0 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.1;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+
+@media screen and (max-width: 47.9rem) {
+    .footer__link {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 2rem;
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+
+}
+

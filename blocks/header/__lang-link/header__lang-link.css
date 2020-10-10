@@ -1,0 +1,24 @@
+.header__lang-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__lang-link:hover {
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+/* .header__lang-link:nth-of-type(1) {
+    margin: 0 1.125rem 0 0;
+} */
+
+@media screen and (max-width: 47.9rem) {
+    .header__lang-link {
+        font-size: 1.125rem;
+        line-height: 1.1;
+    }
+}

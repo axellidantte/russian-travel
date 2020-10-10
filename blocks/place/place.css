@@ -1,0 +1,29 @@
+.place {
+    display: grid;
+    grid-template-columns: 28.75rem 30.25rem;
+    column-gap: 2.5rem;
+    row-gap: 3rem;
+    margin: 0 auto 5rem;
+}
+
+@media screen and (max-width: 79.9rem) {
+    .place {
+        grid-template-columns: 27.5rem 28.5rem;
+        gap: 3rem 2rem;
+    }
+}
+
+@media screen and (max-width: 63.9rem) {
+    .place {
+        grid-template-columns: 21.25rem 22rem;
+        gap: 3rem 1.75rem;
+    }
+}
+
+@media screen and (max-width: 47.9rem) {
+    .place {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+}

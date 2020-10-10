@@ -1,0 +1,8 @@
+.header__lang-link-list {
+    display: inline;
+    margin: 0 1.125rem 0 0;
+}
+
+.header__lang-link-list:last-of-type {
+    margin-right: 0;
+}

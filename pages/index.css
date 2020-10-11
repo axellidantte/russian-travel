@@ -21,7 +21,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list-paragraph/into__list-paragraph.css);
+@import url(../blocks/intro/__list-paragraph/intro__list-paragraph.css);
 @import url(../blocks/intro/__list-span-accent/intro__list-span-accent.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -50,11 +50,3 @@
 @import url(../blocks/footer/__links-list/footer__links-list.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-html {
-    font-size: 16px;
-}
-
-* {
-    box-sizing: border-box;
-}
